@@ -1,1 +1,1 @@
-web: gunicorn LIC:app
+web: gunicorn app:app
