@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="mb-4">Certifications</h2>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <strong>AWS Cloud Computing</strong> – Andhra Pradesh State Skill Development Corporation (APSSDC)
+        <br>
+        <img src="{{ url_for('static', filename='images/aws_certificate.jpg') }}" alt="AWS Certificate" class="img-fluid mt-2">
+    </div>
+    <div class="col-md-6 mb-4">
+        <strong>Cloud Computing</strong> – NPTEL Online Certification (Score: 81%)
+        <br>
+        <img src="{{ url_for('static', filename='images/cloud_computing_certificate.jpg') }}" alt="Cloud Computing Certificate" class="img-fluid mt-2">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <strong>Internship Certificate</strong> – Bank of India Staff Co-operative Society Ltd.
+        <br>
+        <img src="{{ url_for('static', filename='images/internship_certificate.jpg') }}" alt="Internship Certificate" class="img-fluid mt-2">
+    </div>
+    <div class="col-md-6 mb-4">
+        <strong>Innovex 2024</strong> – Certificate of Participation
+        <br>
+        <img src="{{ url_for('static', filename='images/innovex_certificate.jpg') }}" alt="Innovex Certificate" class="img-fluid mt-2">
+    </div>
+</div>
+
+{% endblock %}
